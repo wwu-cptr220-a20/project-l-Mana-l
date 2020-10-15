@@ -1,79 +1,153 @@
-h1.header {
-    padding: 10px;
-    text-align: justify;
-}
-
-p {
-    text-align: justify;
-    letter-spacing: 1px;
-}
-
-img {
-    float: none;
-    margin: 2px;
-}
-
-iframe {
-    display: inline;
-    margin: 33px;
-}
-
-table {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-}
-
-th {
-    height: 2rem;
-    text-align: left;
-    color: black;
-    background-color: lightcyan;
-}
-
-table img {
-    width: 100px;
-    height: 100px;
-}
-
-th,
-td {
-    padding: .5em;
-    border-bottom: 1px solid #d3d3d3;
-}
-
-tbody tr:nth-of-type(even) {
-    background-color: lavenderblush;
-}
-
-tbody tr:hover {
-    background-color: pink;
-}
-
-
-/*Colors the Navigation Bar */
-
-.navbar {
-    background-color: lightblue;
-    overflow: hidden;
-}
-
-
-/*Access Elements inside the Navigation Bar */
-
-.navbar a {
-    float: left;
-    text-align: center;
-    padding: 12px 14px;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-
-/*Highlights the Opitions in Navigation tool bar */
-
-.navbar a:hover {
-    background-color: lightcyan;
-    color: black;
-}
+            h1.header {
+                padding: 10px;
+                text-align: justify;
+            }
+            
+            p {
+                text-align: justify;
+                letter-spacing: 1px;
+            }
+            
+            body {
+                background: url(../../Assignment/img/wormz.png);
+            }
+            
+            .container iframe {
+                background-size: auto;
+                margin: 0 auto;
+                background-color: #777;
+            }
+            
+            iframe {
+                display: block;
+                border-style: none;
+            }
+            
+            table {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+            }
+            
+            th {
+                height: 2rem;
+                text-align: left;
+                color: black;
+                background-color: lightcyan;
+            }
+            
+            table img {
+                width: 100px;
+                height: 100px;
+            }
+            
+            th,
+            td {
+                padding: .5em;
+                border-bottom: 1px solid #d3d3d3;
+            }
+            
+            tbody tr:nth-of-type(even) {
+                background-color: lavenderblush;
+            }
+            
+            tbody tr:hover {
+                background-color: pink;
+            }
+            /*Colors the Navigation Bar */
+            
+            .navbar {
+                background-color: lightblue;
+                overflow: hidden;
+                color: darkcyan;
+            }
+            /*Access Elements inside the Navigation Bar */
+            
+            .navbar a {
+                float: left;
+                color: inherit;
+                text-align: left;
+                padding: 12px 14px;
+                font-size: 18px;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+            /*Dropdown Menu for Bookmark Container*/
+            
+            .bookmark {
+                float: left;
+                overflow: hidden;
+            }
+            /*BookMark Button*/
+            
+            .bookmark .bookmarkbtn {
+                font-size: 18px;
+                border: none;
+                outline: none;
+                padding: 12px 14px;
+                background-color: inherit;
+                /*Important to include to vertically Align on moblie devices*/
+                margin: 0;
+            }
+            /*Highlights the Opitions in Navigation tool bar & Bookmark Button */
+            
+            .navbar a:hover,
+            .bookmark:hover .bookmarkbtn {
+                background-color: lightcyan;
+                color: lightsalmon;
+            }
+            
+            .bookmark-content {
+                display: none;
+                position: absolute;
+                background-color: inherit;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            }
+            /*Links inside the bookmark content*/
+            
+            .bookmark-content a {
+                float: none;
+                color: inherit;
+                padding: 12px 14px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .bookmark-content a:hover {
+                background-color: black;
+                color: lightsalmon;
+            }
+            
+            .bookmark:hover .bookmark-content {
+                display: block;
+            }
+            
+            .container {
+                max-width: 1080px;
+                background-color: lightcyan;
+            }
+            
+            .parallax-pic-1 {
+                height: 500px;
+                padding-top: 5%;
+                padding-left: 3%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("../../Assignment/img/VR_Person.jpg");
+            }
+            
+            .parallax-pic-2 {
+                height: 500px;
+                padding-top: 5%;
+                padding-left: 3%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 40%;
+                background-image: url("../../Assignment/img/VR_Market_Scale.jpg");
+            }
+            /*<img src="img/VR_Person.jpg " alt="A male engaging with the Oculus Quest " title="Credit: Minh Pham ">*/
