@@ -18,17 +18,6 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="dropdown-bookmark">
-                <button class="dropdown-bookmark-btn">Bookmark
-                <i class="fa fa-caret-down"></i>
-              </button>
-                <div class="dropdown-bookmark-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-
-            </div>
             <a href="../../Assignment/main.html">Home</a>
             <a href="../../Assignment/blogs/blogs.html">Blogs</a>
             <a href="../../Assignment/aboutme/aboutme.html">About</a>
@@ -39,9 +28,15 @@
     <div class="contact-section">
         <div class="inner-width">
             <h1>Get in touch with me</h1>
-            <input type="text" class="name" placeholder="Your Name">
-            <input type="text" class="email" placeholder="Your Email">
-            <textarea class="message" placeholder="Message" rows="1"></textarea>
+
+            <label for="name">Your Name</label>
+            <input type="text" class="name" placeholder="Your Name" id="name" tabindex="1">
+
+            <label for="email">Your Email</label>
+            <input type="text" class="email" placeholder="Your Email" id="email" tabindex="2">
+
+            <label for="message">Your Message</label>
+            <textarea class="message" placeholder="Message" rows="1" id="message" tabindex="3"></textarea>
             <button>Submit</button>
         </div>
     </div>
