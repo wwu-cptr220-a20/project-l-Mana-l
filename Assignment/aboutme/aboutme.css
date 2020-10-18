@@ -28,7 +28,7 @@
     .introduction-section>h1,
     .question-section>h1,
     .question-section>h2 {
-        color: lightsalmon;
+        color: black;
     }
     
     .introduction-section>p,
@@ -36,6 +36,7 @@
     .content-footer>p {
         text-indent: 50px;
         font-weight: 300;
+        text-justify: inter-word;
         color: navy;
     }
     
@@ -46,6 +47,7 @@
     }
     
     .content-footer>p {
+        text-justify: inter-word;
         color: navy;
         font-weight: 400;
     }
@@ -62,4 +64,9 @@
     .social>li {
         display: inline-block;
         margin: 0 5px;
+    }
+    
+    .social>li>a {
+        color: white;
+        font-weight: bold;
     }
