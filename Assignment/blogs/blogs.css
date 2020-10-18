@@ -1,0 +1,7 @@
+.blog-container {
+    background: white;
+}
+
+.blog-container .blog-content {
+    background: black;
+}
