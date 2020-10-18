@@ -1,0 +1,65 @@
+    body {
+        background: lightblue;
+    }
+    
+    .main-container {
+        padding: 10em 0;
+        background-image: url('../../Assignment/img/skypic.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10% 70%;
+        border-top: solid 1em yellow;
+    }
+    
+    .h1-heading {
+        text-align: center;
+        color: white;
+        font-size: 4em;
+    }
+    
+    .introduction-section,
+    .question-section {
+        max-width: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+    
+    .introduction-section>h1,
+    .question-section>h1,
+    .question-section>h2 {
+        color: lightsalmon;
+    }
+    
+    .introduction-section>p,
+    .question-section>p,
+    .content-footer>p {
+        text-indent: 50px;
+        font-weight: 300;
+        color: navy;
+    }
+    
+    .question-section>h2 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 2em 0 1em 0;
+    }
+    
+    .content-footer>p {
+        color: navy;
+        font-weight: 400;
+    }
+    
+    .content-footer,
+    .content-footer>p {
+        margin: 10px 0;
+        padding: 10px 0;
+        text-align: center;
+        background-color: #73A8C2;
+        text-decoration: none;
+    }
+    
+    .social>li {
+        display: inline-block;
+        margin: 0 5px;
+    }

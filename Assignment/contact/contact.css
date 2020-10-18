@@ -7,7 +7,7 @@
 
 .contact-section {
     background-color: lightblue;
-    padding: 125px 0;
+    padding: 100px 0;
     text-align: center;
     position: fixed;
     margin: 0;
@@ -89,5 +89,20 @@ label {
     .name,
     .email {
         width: 100%;
+    }
+}
+
+@media (min-width:600px) and (max-width:3000px) {
+    .contact-section h1 {
+        font-size: 2em;
+    }
+    .name,
+    .email,
+    .message {
+        width: 100%;
+        font-size: 1.25em;
+    }
+    .contact-section .submit-btn {
+        font-size: 25px;
     }
 }
