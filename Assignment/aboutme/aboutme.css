@@ -85,7 +85,7 @@
             font-size: 2em;
         }
         .content-footer {
-            margin: 0px 0;
+            margin: 0px;
         }
     }
     
@@ -96,10 +96,10 @@
         .introduction-section>p,
         .question-section>p,
         .content-footer>p {
-            font-size: 1.7em;
+            font-size: 1.2em;
         }
         .content-footer {
-            font-size: 1.1em;
+            font-size: 1.3em;
             margin: 0px 0;
         }
         .introduction-section,
@@ -115,7 +115,7 @@
         .introduction-section>p,
         .question-section>p,
         .content-footer>p {
-            font-size: 1.7em;
+            font-size: 1.5em;
         }
         .introduction-section>h1,
         .question-section>h1 {
@@ -127,7 +127,7 @@
             font-weight: 100px;
         }
         .content-footer {
-            font-size: 1.7em;
+            font-size: 1.5em;
             margin: 0px 0;
         }
         .introduction-section,
@@ -136,9 +136,9 @@
         }
     }
     
-    @media (min-width:2000px) and (max-width:2560px) {
+    @media (min-width:2000px) {
         .navbar a {
-            font-size: 4em;
+            font-size: 1.5em;
         }
         .h1-heading {
             margin: 75px;
@@ -147,53 +147,26 @@
         .introduction-section>p,
         .question-section>p,
         .content-footer>p {
-            font-size: 3.5em;
+            font-size: 1.8em;
         }
         .introduction-section>h1,
         .question-section>h1,
         .question-section>h2 {
-            font-size: 3.5em;
+            font-size: 2.7em;
         }
         .content-footer {
-            font-size: 1.7em;
+            font-size: 1.5em;
             margin: 0px 0;
         }
         .content-footer .social,
-        .content-footer address,
         .content-footer address a {
-            font-size: 1.7em;
+            font-size: 1em;
         }
         .introduction-section,
         .question-section {
-            max-width: 140em;
+            max-width: 120em;
         }
         .main-container {
             height: 650px;
-        }
-    }
-    
-    @media(min-width:2560px) {
-        .navbar a {
-            font-size: 1.5em;
-        }
-        .introduction-section>h1,
-        .question-section>h1 {
-            font-size: 2em;
-        }
-        .question-section>h2 {
-            font-size: 1.3em;
-        }
-        .introduction-section>p,
-        .question-section>p,
-        .content-footer>p {
-            font-size: 1.2em;
-        }
-        .question-section>h2 {
-            margin: .5em 0 .5em 0;
-        }
-        .content-footer .social,
-        .content-footer address,
-        .content-footer address a {
-            font-size: 0.8em;
         }
     }
