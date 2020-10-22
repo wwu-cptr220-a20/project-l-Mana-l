@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 // variable 'button' to represent <button> element
 let button = document.getElementById("dark_mode");
 
