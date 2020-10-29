@@ -1,8 +1,25 @@
-* {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    list-style: none;
+input[type="text"] {
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.display {
+    text-emphasis: center;
+}
+
+.display h1,
+.display p {
+    text-align: center;
+    size: 1.5em;
 }
 
 h1.header {

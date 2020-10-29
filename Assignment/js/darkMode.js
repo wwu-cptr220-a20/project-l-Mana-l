@@ -7,8 +7,8 @@ let button = document.getElementById("dark_mode");
 
 
 function darkModeCallBack() {
-    let blogContainer = document.querySelectorAll(".blog-content, .container, .navbar");
-    let paragraphContainer = document.querySelectorAll("p, h2, h1, li, .dropdown-bookmark");
+    let blogContainer = document.querySelectorAll(".blog-content, .container, .navbar, .dropdown-bookmark-content");
+    let paragraphContainer = document.querySelectorAll("p, h2, h1, li, .dropdown-bookmark, .navbar a, .dropdown-bookmark-btn");
     let contentContainter = document.getElementsByClassName("blogTitle");
 
     blogContainer.forEach(each => {
@@ -18,10 +18,6 @@ function darkModeCallBack() {
     paragraphContainer.forEach(each => {
         each.classList.toggle("text-white")
     })
-
-    for (var elem in contentContainter) {
-        contentContainter[elem].toggle.style.color = "white";
-    }
     document.querySelector("body").classList.toggle("body-dark");
 }
 
