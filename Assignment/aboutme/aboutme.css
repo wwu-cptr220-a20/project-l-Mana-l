@@ -1,0 +1,172 @@
+    body {
+        background: lightblue;
+    }
+    
+    .main-container {
+        padding: 10em 0;
+        background-image: url('../../Assignment/img/skypic.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10% 70%;
+        border-top: solid 1em yellow;
+    }
+    
+    .h1-heading {
+        text-align: center;
+        color: white;
+        font-size: 4em;
+    }
+    
+    .introduction-section,
+    .question-section {
+        max-width: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid white;
+        border-width: 0.5em;
+    }
+    
+    .introduction-section>h1,
+    .question-section>h1,
+    .question-section>h2 {
+        color: black;
+    }
+    
+    .introduction-section>p,
+    .question-section>p,
+    .content-footer>p {
+        text-indent: 50px;
+        font-weight: 300;
+        color: navy;
+    }
+    
+    .question-section>h2 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 2em 0 1em 0;
+    }
+    
+    .content-footer>p {
+        color: navy;
+        font-weight: 400;
+    }
+    
+    .content-footer,
+    .content-footer>p {
+        margin: 10px 0;
+        padding: 10px 0;
+        text-align: center;
+        background-color: #73A8C2;
+        text-decoration: none;
+    }
+    
+    .social>li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    
+    .social>li>a,
+    #email {
+        color: white;
+        font-weight: bold;
+    }
+    
+    @media screen and (max-width:720px) {
+        .introduction-section>h1,
+        .question-section>h1,
+        .question-section>h2 {
+            font-size: 1em;
+        }
+        .introduction-section>p,
+        .question-section>p {
+            font-size: 0.8em;
+        }
+        .h1-heading {
+            font-size: 2em;
+        }
+        .content-footer {
+            margin: 0px;
+        }
+    }
+    
+    @media (min-width:720px) and (max-width:1024px) {
+        .navbar a {
+            font-size: 1.5em;
+        }
+        .introduction-section>p,
+        .question-section>p,
+        .content-footer>p {
+            font-size: 1.2em;
+        }
+        .content-footer {
+            font-size: 1.3em;
+            margin: 0px 0;
+        }
+        .introduction-section,
+        .question-section {
+            max-width: 45em;
+        }
+    }
+    
+    @media (min-width:1024px) and (max-width:2000px) {
+        .navbar a {
+            font-size: 2em;
+        }
+        .introduction-section>p,
+        .question-section>p,
+        .content-footer>p {
+            font-size: 1.5em;
+        }
+        .introduction-section>h1,
+        .question-section>h1 {
+            font-size: 2.3em;
+            font-weight: bold;
+        }
+        .question-section>h2 {
+            font-size: 2em;
+            font-weight: 100px;
+        }
+        .content-footer {
+            font-size: 1.5em;
+            margin: 0px 0;
+        }
+        .introduction-section,
+        .question-section {
+            max-width: 75em;
+        }
+    }
+    
+    @media (min-width:2000px) {
+        .navbar a {
+            font-size: 1.5em;
+        }
+        .h1-heading {
+            margin: 75px;
+            font-size: 7em;
+        }
+        .introduction-section>p,
+        .question-section>p,
+        .content-footer>p {
+            font-size: 1.8em;
+        }
+        .introduction-section>h1,
+        .question-section>h1,
+        .question-section>h2 {
+            font-size: 2.7em;
+        }
+        .content-footer {
+            font-size: 1.5em;
+            margin: 0px 0;
+        }
+        .content-footer .social,
+        .content-footer address a {
+            font-size: 1em;
+        }
+        .introduction-section,
+        .question-section {
+            max-width: 120em;
+        }
+        .main-container {
+            height: 650px;
+        }
+    }

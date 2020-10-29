@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^26.4.2",
     "jest-style-matchers": "^0.1.2"
   },
   "eslintConfig": {
@@ -35,5 +36,10 @@
         "error"
       ]
     }
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
   }
 }

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input {
+    text-align: center;
+}
+
+body {
+    background-image: url(../../Assignment/img/wormz.png);
+}
+
+.body-dark {
+    background-image: url(../../Assignment/img/wormz_dark.png);
+}
+
+.navbar {
+    background-color: lightblue;
+    overflow: visible;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: midnightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+.dropdown-bookmark {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-bookmark .dropdown-bookmark-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: midnightblue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-bookmark-content {
+    display: none;
+    position: absolute;
+    background-color: lightcyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-bookmark-content a:hover {
+    background-color: lightsalmon;
+}
+
+.dropdown-bookmark .dropdown-bookmark-btn:hover {
+    font-weight: bold;
+}
+
+.dropdown-bookmark:hover .dropdown-bookmark-content {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container {
+    max-width: 1080px;
+    background-color: lightcyan;
+}

@@ -1,0 +1,45 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: inherit;
+    }
+    
+    .form {
+        background-color: lightblue;
+        padding: 100px 0;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid navy;
+    }
+    
+    .form-group {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    
+    #emailInput,
+    #passwordInput,
+    #passwordConfirmInput,
+    #dobInput {
+        margin-bottom: 1em;
+    }
+    
+    .col-lg-1 {
+        font-size: 1.3em;
+        color: navy;
+        margin-right: 1em;
+        font-weight: 500;
+    }
+    
+    [data-theme="dark"] {
+        background-color: #111 !important;
+        color: #eee;
+    }
+    
+    @media screen and (max-width: 600px) {}
+    
+    @media (min-width: 600px) {}

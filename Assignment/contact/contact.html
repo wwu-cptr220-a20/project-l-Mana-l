@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/clouds/2x/mana.png">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Blog Posts</title>
+    <meta name="description" content="Blog Posts">
+    <meta name="keywords" content="Blog, CS, Science, Matija, Benko">
+    <meta name="author" content="https://www.linkedin.com/in/matija-benko-7976161a7/">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="../../Assignment/main.html">Home</a>
+            <a href="../../Assignment/blogsHome/blogs.html">Blogs</a>
+            <a href="../../Assignment/aboutme/aboutme.html">About</a>
+            <a href="https://github.com/l-Mana-l" target="_blank">GitHub</a>
+            <a href="../../Assignment/contact/contact.html">Contact</a>
+        </div>
+    </header>
+    <p class="alert alert-success d-none">SENT</p>
+
+    <form id="signUpForm" class="form" novalidate>
+        <div class="form-group row">
+            <label for="emailInput" class="col-lg-1">Email</label>
+            <div class="col-lg-11">
+                <input type="email" id="emailInput" class="form-control" required>
+                <div class="invalid-feedback">Please provide a valid email</div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="passwordInput" class="col-lg-1">Password</label>
+            <div class="col-lg-11">
+                <input type="password" id="passwordInput" class="form-control" minLength=6 required>
+                <div id="passwordFeedback" class="invalid-feedback">Password must be at least 6 characters</div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="passwordConfirmInput" class="col-lg-1">Confirm Password</label>
+            <div class="col-lg-11">
+                <input type="password" id="passwordConfirmInput" class="form-control" required>
+                <div id="passwordConfirmFeedback" class="invalid-feedback"></div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="dobInput" class="col-lg-1">Date of Birth</label>
+            <div class="col-lg-11">
+                <input type="date" id="dobInput" class="form-control" required>
+                <div id="dobFeedback" class="invalid-feedback"></div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </form>
+    <!-- include JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+
+</html>
