@@ -15,10 +15,6 @@ p {
     letter-spacing: 1px;
 }
 
-body {
-    background: url(../../Assignment/img/wormz.png);
-}
-
 .parallax-pic-1 {
     height: 500px;
     padding-top: 5%;
@@ -88,7 +84,7 @@ tbody tr:hover {
 
 /*Above is for VrBlog*/
 
-a {
+h2 {
     color: midnightblue;
 }
 
@@ -137,10 +133,6 @@ a {
 
 .box-content {
     border-bottom: 2px solid white;
-}
-
-.box-content p {
-    color: #1186E3;
 }
 
 .box-content a {
